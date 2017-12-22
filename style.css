@@ -1,0 +1,56 @@
+* {
+	background-color: black;
+	font-family: 'open sans',arial,sans-serif;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url('http://themes.googleusercontent.com/static/fonts/opensans/v5/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff') format('woff');
+}
+
+.mainDiv {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#mainHeader {
+	font-size: 100px;
+	color: #A7B0B2;
+	text-align: center;
+}
+
+#results {
+	font-size: 50px;
+	color: #7E8E92;
+	text-align: center;
+	margin:0 auto;
+    display:block;
+    border: none;
+}
+
+#definitions {
+	font-size: 25px;
+	color: #7E8E92;
+	text-align: center;
+}
+
+#signature {
+	width: 100px;
+	height: 100px;
+}
+
+#timer {
+	font-size: 100px;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
